@@ -13,7 +13,7 @@ var amountRegex = regexp.MustCompile(`\s{2,}(\S+)$`)
 
 func main() {
 	// Command-line arguments
-	inputFile := flag.String("i", "", "Input file (leave empty for STDIN)")
+	inputFile := flag.String("f", "", "Input file (leave empty for STDIN)")
 	outputFile := flag.String("o", "", "Output file (leave empty for STDOUT)")
 	flag.Parse()
 

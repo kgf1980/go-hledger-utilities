@@ -16,7 +16,7 @@ type Transaction struct {
 }
 
 func main() {
-	inputFile := flag.String("i", "", "Input file (leave blank for STDIN)")
+	inputFile := flag.String("f", "", "Input file (leave blank for STDIN)")
 	outputFile := flag.String("o", "", "Output file (leave blank for STDOUT)")
 	flag.Parse()
 
